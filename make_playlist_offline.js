@@ -1,6 +1,7 @@
 //run this from a playlist page on Suno.com - This is script 1 to run!
 //This script will walk through each song in the playlist and make a list of the paths to the mp3 and the mp4.
 //when it has walked the whole playlist it will autodownload the list of songs tab separated. Use this list in the other script to download the files.
+//if the script screws up and goes back to the home page instead of your playlist just navigate back to your playlist and it should resume. It does do this from time to time. Unavoidable.
 
 (async () => {
   const delay = ms => new Promise(r => setTimeout(r, ms));
